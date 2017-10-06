@@ -9,21 +9,24 @@ public class InventoryScript : MonoBehaviour
     private static GameObject armorScreen;
     private static GameObject weaponScreen;
     private static GameObject inventoryScreen;
-    private const float inventoryScaleX = 0.26f;
-    private const float inventoryScaleY = 0.95f;
-    private static bool[] spaceOccupied;
+   private static bool[] spaceOccupied;
     private static int numOccupied;
     private static int weaponNumber;
     private static int armorNumber;
     private const float defaultX = 822;
     private const float defaultY = 334;
     private static float ratioX, ratioY;
+    private static string equippedWeapon;
+    private static string[] equippedArmors;
+    
 
     void Start()
     {
+        equippedArmors = new string[3];
         numOccupied = 0;
         weaponNumber = 0;
         armorNumber = 0;
+        
         spaceOccupied = new bool[16];
         armorScreen = GameObject.Find("ArmorCreation");
         weaponScreen = GameObject.Find("WeaponCreation");
@@ -100,5 +103,21 @@ public class InventoryScript : MonoBehaviour
     public static Vector2 getRatios()
     {
         return new Vector2(ratioX, ratioY);
+    }
+    public static void setOccupied(int ind,bool option)
+    {
+        spaceOccupied[ind] = option;
+    }
+    public static void setEquippedWeapon(string Wname)
+    {
+        equippedWeapon = Wname;
+    }
+    public static void setEquippedArmor(string aname,int ind)
+    {
+        equippedArmors[ind] = aname;
+    }
+    public static string[] getEquippedArmorList()
+    {
+        return equippedArmors;
     }
 }

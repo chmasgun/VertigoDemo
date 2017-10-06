@@ -360,7 +360,7 @@ GameObject:
   - component: {fileID: 103770462}
   m_Layer: 5
   m_Name: Space15
-  m_TagString: Untagged
+  m_TagString: Space
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -426,7 +426,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 30, y: 30, z: 1}
+  m_Size: {x: 39.9, y: 39.9, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &126569465
 GameObject:
@@ -1249,6 +1249,7 @@ GameObject:
   - component: {fileID: 315743906}
   - component: {fileID: 315743908}
   - component: {fileID: 315743907}
+  - component: {fileID: 315743909}
   m_Layer: 5
   m_Name: Armor2
   m_TagString: Armor
@@ -1307,6 +1308,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 315743905}
+--- !u!65 &315743909
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 315743905}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 39, y: 39, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &317086525
 GameObject:
   m_ObjectHideFlags: 0
@@ -1749,7 +1762,7 @@ GameObject:
   - component: {fileID: 358514421}
   m_Layer: 5
   m_Name: Space5
-  m_TagString: Untagged
+  m_TagString: Space
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1815,7 +1828,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 30, y: 30, z: 1}
+  m_Size: {x: 39.9, y: 39.9, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &360432467
 GameObject:
@@ -1915,7 +1928,7 @@ GameObject:
   - component: {fileID: 370491679}
   m_Layer: 5
   m_Name: Space16
-  m_TagString: Untagged
+  m_TagString: Space
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1981,7 +1994,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 30, y: 30, z: 1}
+  m_Size: {x: 39.9, y: 39.9, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &400797883
 GameObject:
@@ -1996,7 +2009,7 @@ GameObject:
   - component: {fileID: 400797887}
   m_Layer: 5
   m_Name: Space14
-  m_TagString: Untagged
+  m_TagString: Space
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2062,7 +2075,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 30, y: 30, z: 1}
+  m_Size: {x: 39.9, y: 39.9, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &419484685
 GameObject:
@@ -2431,7 +2444,7 @@ GameObject:
   - component: {fileID: 526855315}
   m_Layer: 5
   m_Name: Space8
-  m_TagString: Untagged
+  m_TagString: Space
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2497,7 +2510,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 30, y: 30, z: 1}
+  m_Size: {x: 39.9, y: 39.9, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &546295033
 GameObject:
@@ -3046,7 +3059,7 @@ GameObject:
   - component: {fileID: 635089137}
   m_Layer: 5
   m_Name: Space11
-  m_TagString: Untagged
+  m_TagString: Space
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3112,7 +3125,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 30, y: 30, z: 1}
+  m_Size: {x: 39.9, y: 39.9, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &657401271
 GameObject:
@@ -3705,7 +3718,7 @@ GameObject:
   - component: {fileID: 792115849}
   m_Layer: 5
   m_Name: Space10
-  m_TagString: Untagged
+  m_TagString: Space
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3771,7 +3784,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 30, y: 30, z: 1}
+  m_Size: {x: 39.9, y: 39.9, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &800632831
 GameObject:
@@ -3851,6 +3864,7 @@ GameObject:
   - component: {fileID: 807088959}
   - component: {fileID: 807088961}
   - component: {fileID: 807088960}
+  - component: {fileID: 807088962}
   m_Layer: 5
   m_Name: Weapon
   m_TagString: Weapon
@@ -3866,7 +3880,7 @@ RectTransform:
   m_GameObject: {fileID: 807088958}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1334400443}
   m_RootOrder: 0
@@ -3874,7 +3888,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -40, y: 0}
-  m_SizeDelta: {x: -80, y: -20}
+  m_SizeDelta: {x: -120, y: -60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &807088960
 MonoBehaviour:
@@ -3909,6 +3923,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 807088958}
+--- !u!65 &807088962
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 807088958}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 39, y: 39, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &814200158
 GameObject:
   m_ObjectHideFlags: 0
@@ -4365,7 +4391,7 @@ GameObject:
   - component: {fileID: 952122709}
   m_Layer: 5
   m_Name: Space2
-  m_TagString: Untagged
+  m_TagString: Space
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4431,7 +4457,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 30, y: 30, z: 1}
+  m_Size: {x: 39.9, y: 39.9, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &973582627
 GameObject:
@@ -5540,7 +5566,7 @@ GameObject:
   - component: {fileID: 1234621132}
   m_Layer: 5
   m_Name: Space3
-  m_TagString: Untagged
+  m_TagString: Space
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5606,7 +5632,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 30, y: 30, z: 1}
+  m_Size: {x: 39.9, y: 39.9, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1238524403
 GameObject:
@@ -6112,7 +6138,7 @@ GameObject:
   - component: {fileID: 1332588188}
   m_Layer: 5
   m_Name: Space4
-  m_TagString: Untagged
+  m_TagString: Space
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6178,7 +6204,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 30, y: 30, z: 1}
+  m_Size: {x: 39.9, y: 39.9, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1334400442
 GameObject:
@@ -6332,7 +6358,7 @@ GameObject:
   - component: {fileID: 1414957896}
   m_Layer: 5
   m_Name: Space9
-  m_TagString: Untagged
+  m_TagString: Space
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6398,7 +6424,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 30, y: 30, z: 1}
+  m_Size: {x: 39.9, y: 39.9, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1426787740
 GameObject:
@@ -6830,7 +6856,7 @@ GameObject:
   - component: {fileID: 1480750858}
   m_Layer: 5
   m_Name: Space12
-  m_TagString: Untagged
+  m_TagString: Space
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6896,7 +6922,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 30, y: 30, z: 1}
+  m_Size: {x: 39.9, y: 39.9, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1502377451
 GameObject:
@@ -7418,9 +7444,10 @@ GameObject:
   - component: {fileID: 1636730941}
   - component: {fileID: 1636730943}
   - component: {fileID: 1636730942}
+  - component: {fileID: 1636730944}
   m_Layer: 5
   m_Name: Disenchant
-  m_TagString: Untagged
+  m_TagString: Disenchant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7477,6 +7504,31 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1636730940}
+--- !u!61 &1636730944
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1636730940}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 100, y: 50}
+  m_EdgeRadius: 0
 --- !u!1 &1659573320
 GameObject:
   m_ObjectHideFlags: 0
@@ -7564,7 +7616,7 @@ GameObject:
   - component: {fileID: 1692663580}
   m_Layer: 5
   m_Name: Space13
-  m_TagString: Untagged
+  m_TagString: Space
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7630,7 +7682,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 30, y: 30, z: 1}
+  m_Size: {x: 39.9, y: 39.9, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1709233910
 GameObject:
@@ -7883,6 +7935,7 @@ GameObject:
   - component: {fileID: 1740166828}
   - component: {fileID: 1740166830}
   - component: {fileID: 1740166829}
+  - component: {fileID: 1740166831}
   m_Layer: 5
   m_Name: Armor1
   m_TagString: Armor
@@ -7941,6 +7994,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1740166827}
+--- !u!65 &1740166831
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1740166827}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 39, y: 39, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1750986588
 GameObject:
   m_ObjectHideFlags: 0
@@ -8056,7 +8121,7 @@ GameObject:
   - component: {fileID: 1770023117}
   m_Layer: 5
   m_Name: Space1
-  m_TagString: Untagged
+  m_TagString: Space
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8122,7 +8187,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 30, y: 30, z: 1}
+  m_Size: {x: 39.9, y: 39.9, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1779791211
 GameObject:
@@ -9035,7 +9100,7 @@ GameObject:
   - component: {fileID: 1875552858}
   m_Layer: 5
   m_Name: Space7
-  m_TagString: Untagged
+  m_TagString: Space
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9101,7 +9166,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 30, y: 30, z: 1}
+  m_Size: {x: 39.9, y: 39.9, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1884727883
 GameObject:
@@ -9768,7 +9833,7 @@ GameObject:
   - component: {fileID: 1966262204}
   m_Layer: 5
   m_Name: Space6
-  m_TagString: Untagged
+  m_TagString: Space
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9834,7 +9899,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 30, y: 30, z: 1}
+  m_Size: {x: 39.9, y: 39.9, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1971412362
 GameObject:
@@ -9846,6 +9911,7 @@ GameObject:
   - component: {fileID: 1971412363}
   - component: {fileID: 1971412365}
   - component: {fileID: 1971412364}
+  - component: {fileID: 1971412366}
   m_Layer: 5
   m_Name: Armor3
   m_TagString: Armor
@@ -9904,6 +9970,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1971412362}
+--- !u!65 &1971412366
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1971412362}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 39, y: 39, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1971593253
 GameObject:
   m_ObjectHideFlags: 0
